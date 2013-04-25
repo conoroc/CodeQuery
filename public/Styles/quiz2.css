@@ -1,0 +1,16 @@
+﻿h1
+{
+    color:Red;
+}
+
+li
+{
+    border:1px solid #333;
+    background:pink;
+    cursor:pointer;
+}
+
+li:hover
+{
+    background: red;
+}

@@ -1,0 +1,50 @@
+div.piece-drag {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	z-index: 110;
+	
+}
+body {
+    background-color: lightblue;
+}
+.help {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+#content {
+    background-color: snow;
+    min-height: 90%;
+    min-width: 90%;
+}
+#side {
+    height: 200px;
+}
+#main {
+    background-color: gainsboro;
+    height: 500px;
+}
+img.puzpiece {
+	position: relative;
+	z-index: 110;
+}
+
+.place-drop {
+	z-index: 1;
+overflow: hidden;
+display: inline-block;
+position: relative;
+	border: 2px solid black;
+	
+}
+
+.holder {
+	background-color: red;
+}
+
+.pic {
+	z-index: 1;
+}

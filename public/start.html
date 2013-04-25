@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang='en'>
+<head>
+    <title> Code Puzzles</title>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8'/>
+
+    <link type='text/css' href="bootstrap.css" rel='stylesheet'>
+    <link type='text/css' href='Styles/code.css' rel='stylesheet'/>
+    <link type='text/css' href='Styles/quiz2.css' rel='stylesheet'/>
+    <script type="text/javascript" src="JS/bootstrap.js"></script>
+    <script type='text/javascript' src='JS/jquery-1.9.1.js'></script>
+
+    <script type='text/javascript' src='JS/jquery-ui-1.10.2.custom.js'></script>
+
+    <script type="text/javascript" src="JS/render.js"></script>
+    <script type='text/javascript' src='JS/puzzle2.js'></script>
+    <script type='text/javascript' src='JS/quiz2.js'></script>
+    <script type='text/javascript' src='JS/entry.js'></script>
+
+
+</head>
+
+<body>
+<header class='text-center'>
+    <h1>CODEQUERY</h1>
+</header>
+<div id="wrapper" class="container-fluid">
+
+    <div class="row-fluid">
+
+        <div id="side" class="span2 well">
+            <h2>INFO</h2>
+            <a id="helpme" class="btn btn-success" href="#">Give Me A Hint!</a>
+
+            <p id="showscore">0</p>
+        </div>
+        <div id="main" class="well-large span9 offset1">
+            <div class="row">
+
+                <h4 class="text-center">QUIZ</h4>
+
+            </div>
+            <div id="content">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="questions">
+
+        <div id="quiz3">
+            <form>
+                <label for="entryform">Entry</label>
+                <input type="text" id="entryform">
+                <a id="check" href="#" class="btn">Check</a>
+            </form>
+        </div>
+
+        <div id="quiz2">
+
+
+            <div class="q2" id="countdown">
+            </div>
+            <div class="q2" id="question">
+            </div>
+            <ul class="q2" id="answers">
+            </ul>
+            <div class="q2" id="score">
+            </div>
+
+        </div>
+        <div id="quiz8">
+            <div class="help">
+                <div class="well-small">HINT</div>
+            </div>
+            <div class="drag">
+                <div class="piece-drag">
+                    <div class="piece" id="i-piece12">
+                        <img class="puzpiece" src="Pics/i-piece12.png"/>
+                    </div>
+                    <div class="piece" id="i-piece22">
+                        <img class="puzpiece" src="Pics/i-piece22.png"/>
+                    </div>
+
+                    <div class="piece" id="i-piece32">
+                        <img class='puzpiece' src="Pics/i-piece32.png"/>
+                    </div>
+                </div>
+
+
+                <div class="place-drop">
+                    <img src="Pics/sessions.png">
+
+                    <div class="holder" id="s-piece12"
+                         style="width:107px; height:18px; position:absolute;  top:110px; left:133px;">
+                    </div>
+                    <div class="holder" id="s-piece22"
+                         style="width:65px; height:19px; position:absolute;  top:146px; left:51px;">
+                    </div>
+                    <div class="holder" id="s-piece32"
+                         style="width:104px; height:18px; position:absolute;  top:219px; left:51px;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="quiz1">
+        <div class="help">
+            <div class="well-small">HINT</div>
+        </div>
+        <div class="drag">
+            <div class="piece-drag">
+                <div class="piece" id="i-piece1">
+                    <img class="puzpiece" src="Pics/i-piece1.png"/>
+                </div>
+                <div class="piece" id="i-piece2">
+                    <img class="puzpiece" src="Pics/i-piece2.png"/>
+                </div>
+
+                <div class="piece" id="i-piece3">
+                    <img class='puzpiece' src="Pics/i-piece3.png"/>
+                </div>
+            </div>
+
+
+            <div class="place-drop">
+                <img src="Pics/gravatar.png">
+
+                <div class="holder" id="s-piece1"
+                     style="width:71px; height:16px; position:absolute;  top:55px; left:306px;">
+                </div>
+                <div class="holder" id="s-piece2"
+                     style="width:106px; height:17px; position:absolute;  top:73px; left:154px;">
+                </div>
+                <div class="holder" id="s-piece3"
+                     style="width:124px; height:17px; position:absolute;  top:144px; left:234px;">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+    <audio id="cheers">
+        <source src="yee.mp3">
+    </audio>
+</div>
+</body>
+</html>
+
+
