@@ -5,17 +5,27 @@ div.piece-drag {
 	z-index: 110;
 	
 }
+
+.piece {
+    text-align: center;
+    padding: 2px 5px;
+}
 body {
     background-color: lightblue;
 }
 .help {
     background-color: yellow;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 100%;
     float: right;
+    padding: 5px;
+
 }
 
+
+
 #content {
+    padding: 10px;
     background-color: snow;
     min-height: 90%;
     min-width: 90%;
@@ -33,6 +43,7 @@ img.puzpiece {
 }
 
 .place-drop {
+
 	z-index: 1;
 overflow: hidden;
 display: inline-block;
@@ -42,9 +53,13 @@ position: relative;
 }
 
 .holder {
-	background-color: red;
+	background-color: #2C2C26;
 }
 
 .pic {
 	z-index: 1;
 }
+
+.center {
+     margin: 10px auto;
+ }

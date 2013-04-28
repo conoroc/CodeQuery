@@ -5,12 +5,15 @@
 
 li
 {
+    padding: 4px;
+    border-radius: 5px;
+    width: 18%;
     border:1px solid #333;
-    background:pink;
+    background: #efefef;
     cursor:pointer;
 }
 
 li:hover
 {
-    background: red;
+    background: darkgoldenrod;
 }

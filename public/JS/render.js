@@ -9,7 +9,6 @@
 
 
 $(function() {
-    $("#quiz1").hide();
     $('#questions').hide();
 
     var qone = $("#quiz1").html();
