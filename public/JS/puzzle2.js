@@ -4,8 +4,26 @@ var score = 0;
 
 
 $(function () {
+     var start = (function (){
+         var load_start = (function (response) {
+             $("#constant").fadeOut(
+                 500,
+                 function () {
+                     $("#constant")
+                         .html(response)
+                         .fadeIn(500);
 
+                     puzzle();
+                     quiz2_function();
+                     entry_function();
+                 }
+             );
+         });
 
+         $.get("main.html", load_start);
+
+     });
+    $("#start").on('click', start);
     var urls = [
         { "step": "quiz1.html"},
         { "step": "quiz2.html"},
@@ -36,14 +54,19 @@ $(function () {
 
 
     var help_box = (function () {
-        $(".help").hide();
+        $("#helpme").show();
+      $(".help").hide();
         $("#helpme").click(function () {
             score -= 2;
             show_score();
             $(".help").slideDown(
                 500
             );
+            if ($(".help:visible")) {
+                $("#helpme").hide()
+            }
         });
+
     });
 
 
@@ -53,9 +76,27 @@ $(function () {
         progress++;
     });
 
+    var random = (function (){
+        $.fn.randomize = function(selector){
+            (selector ? this.find(selector) : this).parent().each(function(){
+                $(this).children(selector).sort(function(){
+                    return Math.random() - 0.5;
+                }).detach().appendTo(this);
+            });
+
+            return this;
+        };
+
+
+
+        $('div.piece').randomize();
+    });
+
+
 
 
     var puzzle = (function () {
+        random();
         audio = $("#yee")[0];
         help_box();
         var correct = 0;

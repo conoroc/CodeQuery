@@ -1,41 +1,61 @@
+div.wrapper {
+    padding: 20px;
+}
+
+#start {
+    width: 60%;
+    margin-top: 50px;
+}
+
 div.piece-drag {
 	width: 200px;
 	height: 200px;
 	border: 2px solid black;
 	z-index: 110;
+    background-color: #2C2C26;
 	
 }
 
 .piece {
     text-align: center;
     padding: 2px 5px;
+
+}
+
+.piece img {
+    cursor: pointer;
 }
 body {
     background-color: lightblue;
+    padding: 20px 20px 60px;
 }
 .help {
-    background-color: yellow;
-    width: 200px;
-    height: 100%;
-    float: right;
+    background-color: orange;
+    border: 2px dashed #2C2C26;
+    width: 190px;
+
     padding: 5px;
+    float: right;
+    clear: right;
+
 
 }
 
 
 
 #content {
-    padding: 10px;
+    padding: 5px 20px 20px;
     background-color: snow;
-    min-height: 90%;
-    min-width: 90%;
+height: 450px;
+    border-radius: 5px;
 }
 #side {
     height: 200px;
 }
 #main {
-    background-color: gainsboro;
-    height: 500px;
+    background-color: #F5F5F5;
+    height: 570px;
+    padding: 10px 20px 20px;
 }
 img.puzpiece {
 	position: relative;
@@ -49,7 +69,6 @@ overflow: hidden;
 display: inline-block;
 position: relative;
 	border: 2px solid black;
-	
 }
 
 .holder {
@@ -63,3 +82,30 @@ position: relative;
 .center {
      margin: 10px auto;
  }
+
+h1
+{
+
+    border-bottom: 1px solid rgba(36, 36, 36, 0.59);
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+li
+{
+    padding: 4px;
+    border-radius: 5px;
+    width: 18%;
+    border:1px solid #333;
+    background: #efefef;
+    cursor:pointer;
+}
+
+li:hover
+{
+    background: darkgoldenrod;
+}
+
+#qcenter {
+    margin: 5px auto;
+}

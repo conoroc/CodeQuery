@@ -7,12 +7,12 @@
  * To change this template use File | Settings | File Templates.
  */
 
-
-$(function() {
-    $('#questions').hide();
-
-    var qone = $("#quiz1").html();
-    $('#content').html(qone);
-
-
-});
+//
+//$(function() {
+//    $('#questions').hide();
+//
+//    var qone = $("#quiz1").html();
+//    $('#content').html(qone);
+//
+//
+//});
