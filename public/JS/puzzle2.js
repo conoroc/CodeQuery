@@ -72,7 +72,7 @@ $(function () {
 
 
     var next_slide = (function () {
-        $.get(urls[progress].step, load_success);
+        $.get(urls[progress].step,{ "_": $.now()}, load_success);
         progress++;
     });
 
@@ -206,7 +206,7 @@ $(function () {
                             name: name,
                             score: score
                         }
-                    }
+                    };
 
                     $.ajax({
                         url: "http://localhost:3000/players",
@@ -214,13 +214,14 @@ $(function () {
                         data: JSONObject,
                        complete: next_slide()
                     })
+                    $('#content').load("http:/localhost:3000/players");
                     });
             }
         });
 
 
-        $("#entryform").on("keyup", check_entry);
-        $("#check").on("click", check_entry);
+
+        $("#entryform").on("change", check_entry);
     };
 });
 

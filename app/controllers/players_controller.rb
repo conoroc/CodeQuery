@@ -17,7 +17,8 @@ end
 def create
   @player= Player.new(:name => params[:player][:name] , :score => params[:player][:score])
   @player.save
-  render json: @player
+  render json: @players
+
 end
 
 
