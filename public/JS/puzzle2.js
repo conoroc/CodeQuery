@@ -5,13 +5,20 @@ var score = 0;
 
 $(function () {
      var start = (function (){
+
+             $("#start").animate({
+                 top:'600px',
+                 opacity:'0.2'
+
+             },1000);
+
          var load_start = (function (response) {
              $("#constant").fadeOut(
-                 500,
+                 700,
                  function () {
                      $("#constant")
                          .html(response)
-                         .fadeIn(500);
+                         .fadeIn(700);
 
                      puzzle();
                      quiz2_function();
@@ -63,7 +70,7 @@ $(function () {
                 500
             );
             if ($(".help:visible")) {
-                $("#helpme").hide()
+                $("#helpme").fadeOut(500)
             }
         });
 
@@ -128,15 +135,26 @@ $(function () {
 
 
     var questions = [
-        { "text": "Variables that start with two '@' symbols are what kind of variables in Ruby", "answers": ["Local variable", "Global variable", "Instance variable", "Class variable"], "correct": "Instance variable" },
-        { "text": "What syntax do you use to append to an array", "answers": ["<<", ">>", "+", "++"], "correct": "<<" },
-        { "text": "How do you clear the database in Rails", "answers": ["rake db:clear", "rake db:migrate", "db:clear", "rake db:reset"], "correct": "rake db:reset" }
+        { "text": "Variables that start with two '@' symbols are what kind of variables in Ruby", "answers": ["Local variable", "Global variable", "Instance variable", "Class variable"],"hint": "In this instance you're correct", "correct": "Instance variable" },
+        { "text": "What syntax do you use to append to an array", "answers": ["<<", ">>", "+", "++"], "hint": "You're putting into the array from the end", "correct": "<<" },
+        { "text": "How do you clear the database in Rails", "answers": ["rake db:clear", "rake db:migrate", "db:clear", "rake db:reset"],"hint": "Use rake", "correct": "rake db:reset" }
     ];
 
     var q_correct = 0;
     var quiz2_function = (function () {
         audio = $("#yee")[0];
         var display_question = (function () {
+
+            $("#helpme").fadeIn(500);
+
+            var replace = (function (){
+                setTimeout(function(){
+
+                    $(".replace").text(questions[q_correct].hint);
+                }, 2000);
+            });
+
+
             var question = questions[q_correct];
 
             $("#question").text(question.text);
@@ -146,6 +164,8 @@ $(function () {
                 var answer = question.answers[i];
                 $("#answers").append("<li>" + answer + "</li>");
             }
+            replace();
+            $("#content").fadeIn(500);
 
             $("#answers li").on("click", validate_answer);
         });
@@ -153,17 +173,20 @@ $(function () {
         var validate_answer = (function () {
 
             if ($(this).text().toLowerCase() == questions[q_correct].correct.toLowerCase()) {
+
                 audio.play();
                 score += 10;
                 show_score();
                 q_correct++;
+                $(".help").fadeOut(500);
+                $("#content").fadeOut(500);
 
                 if (questions.length > q_correct +1) {
                     display_question();
 
                 } else {
-                    $("#question").text("you are great");
-                    $("#answers").empty();
+
+
                     next_slide();
                 }
             } else {
@@ -193,10 +216,11 @@ $(function () {
 
             var typed = $("#entryform").val();
             if (typed == entry_ans) {
+                $("#entryform").unbind("keyup", check_entry);
                 score += 10;
                 show_score();
                 $("#entryform").animate({
-                        backgroundColor: "olive"
+                        backgroundColor: "green"
                     }, 2000, function() {
                     audio2.play();
 
@@ -212,16 +236,17 @@ $(function () {
                         url: "http://localhost:3000/players",
                         type: "POST",
                         data: JSONObject,
-                       complete: next_slide()
-                    })
-                    $('#content').load("http:/localhost:3000/players");
+                      complete: next_slide()
+                    });
+                    $('#content').fadeOut(500);
+                  $('#content').load("http://localhost:3000/players");
                     });
             }
         });
 
 
 
-        $("#entryform").on("change", check_entry);
+        $("#entryform").bind("keyup", check_entry);
     };
 });
 
