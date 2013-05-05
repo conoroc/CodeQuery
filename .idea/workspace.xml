@@ -47,7 +47,7 @@
     <file path="$PROJECT_DIR$/../unboggle/app/models/user.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367592455443" ignored="false" />
     <file path="$PROJECT_DIR$/../unboggle/app/controllers/resources_controller.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367592455443" ignored="false" />
     <file path="$PROJECT_DIR$/../unboggle/README.rdoc" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367606713744" ignored="false" />
-    <file path="/README.rdoc" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367606712706" ignored="false" />
+    <file path="/README.rdoc" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367796448794" ignored="false" />
     <file path="$PROJECT_DIR$/../unboggle/app/assets/javascripts/sticky2.js" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367607405442" ignored="false" />
     <file path="/sticky2.js" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367607351151" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,19 +69,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="puzzle2.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="puzzle2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/JS/puzzle2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="8" selection-start="9892" selection-end="9892" vertical-scroll-proportion="0.9380692">
+            <state line="289" column="8" selection-start="9892" selection-end="9892" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="4" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.18579236">
               <folding />
             </state>
           </provider>
@@ -132,15 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="quiz1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/quiz1.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -169,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/JS/entry.js" />
         <option value="$PROJECT_DIR$/app/views/players/index.html" />
         <option value="$PROJECT_DIR$/public/JS/render.js" />
         <option value="$PROJECT_DIR$/public/Styles/quiz2.css" />
@@ -185,6 +184,7 @@
         <option value="$PROJECT_DIR$/public/main.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/JS/puzzle2.js" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -781,16 +781,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/JS/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="403" selection-end="403" vertical-scroll-proportion="0.02972028" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Pics/sessions.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -880,7 +870,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/JS/puzzle2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="8" selection-start="9892" selection-end="9892" vertical-scroll-proportion="0.9380692">
+        <state line="289" column="8" selection-start="9892" selection-end="9892" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.18579236">
           <folding />
         </state>
       </provider>
