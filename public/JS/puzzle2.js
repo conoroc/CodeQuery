@@ -152,10 +152,10 @@ $(function () {
 
 // Sets the questions,answers and hints
     var questions = [
-        { "text": "Variables that start with two '@' symbols are what kind of variables in Ruby", "answers": ["Local variable", "Global variable", "Instance variable", "Class variable"],"hint": "In this instance you're correct", "correct": "Instance variable" },
-        { "text": "What syntax do you use to append to an array", "answers": ["<<", ">>", "+", "++"], "hint": "You're putting into the array from the end", "correct": "<<" },
-        { "text": "How do you clear the database in Rails", "answers": ["rake db:clear", "rake db:migrate", "db:clear", "rake db:reset"],"hint": "Use rake", "correct": "rake db:reset" },
-        { "text": "How do you clear the database in Rails", "answers": ["rake db:clear", "rake db:migrate", "db:clear", "rake db:reset"],"hint": "You can use the 'hide' method", "correct": "rake db:reset" }
+        { "text": "Variables that start with two '@' symbols are what kind of variables in Ruby?", "answers": ["Local variable", "Global variable", "Instance variable", "Class variable"],"hint": "In this instance you're correct", "correct": "Instance variable" },
+        { "text": "What syntax do you use to append to an array?", "answers": ["<<", ">>", "+", "++"], "hint": "You're putting into the array from the end", "correct": "<<" },
+        { "text": "How do you clear the database in Rails?", "answers": ["rake db:clear", "rake db:migrate", "db:clear", "rake db:reset"],"hint": "Use rake", "correct": "rake db:reset" },
+        { "text": "How do you clear the database in Rails?", "answers": ["rake db:clear", "rake db:migrate", "db:clear", "rake db:reset"],"hint": "You can use the 'hide' method", "correct": "rake db:reset" }
     ];
 
     var q_correct = 0;

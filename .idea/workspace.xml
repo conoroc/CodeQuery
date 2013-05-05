@@ -24,7 +24,7 @@
     <file path="/quiz2.html" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367365177424" ignored="false" />
     <file path="/quiz2.css" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367110126148" ignored="false" />
     <file path="/main.html" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367784562744" ignored="false" />
-    <file path="$PROJECT_DIR$/log/development.log" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367357466593" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367796820641" ignored="false" />
     <file path="/a.dummy" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367434546795" ignored="false" />
     <file path="$PROJECT_DIR$/../unboggle/app/views/welcome/home.html.erb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367592455443" ignored="false" />
     <file path="$PROJECT_DIR$/../unboggle/app/views/users/index.html.erb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367592455443" ignored="false" />
@@ -72,7 +72,25 @@
       <file leaf-file-name="puzzle2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/JS/puzzle2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="8" selection-start="9892" selection-end="9892" vertical-scroll-proportion="0.0">
+            <state line="157" column="58" selection-start="5044" selection-end="5044" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz3.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/quiz3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="87" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="135" selection-start="287" selection-end="287" vertical-scroll-proportion="0.19502868">
               <folding />
             </state>
           </provider>
@@ -87,28 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.18579236">
+            <state line="6" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz3.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/quiz3.html">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="74" selection-start="534" selection-end="534" vertical-scroll-proportion="-8.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Styles/code.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="16" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,15 +136,6 @@
         <entry file="file://$PROJECT_DIR$/public/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="11" selection-start="123" selection-end="123" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="61" selection-start="286" selection-end="286" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
@@ -169,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/players/index.html" />
         <option value="$PROJECT_DIR$/public/JS/render.js" />
         <option value="$PROJECT_DIR$/public/Styles/quiz2.css" />
         <option value="$PROJECT_DIR$/app/models/player.rb" />
@@ -177,14 +176,15 @@
         <option value="$PROJECT_DIR$/public/start.html" />
         <option value="$PROJECT_DIR$/public/quiz1.html" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/public/quiz3.html" />
-        <option value="$PROJECT_DIR$/app/views/players/index.html.erb" />
         <option value="$PROJECT_DIR$/public/Styles/code.css" />
         <option value="$PROJECT_DIR$/public/quiz2.html" />
         <option value="$PROJECT_DIR$/public/main.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/JS/puzzle2.js" />
         <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/public/JS/puzzle2.js" />
+        <option value="$PROJECT_DIR$/public/quiz3.html" />
+        <option value="$PROJECT_DIR$/app/views/players/index.html.erb" />
       </list>
     </option>
   </component>
@@ -781,11 +781,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/Pics/sessions.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/JS/render.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="163" selection-end="294" vertical-scroll-proportion="0.26243567" />
@@ -819,34 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/quiz3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="74" selection-start="534" selection-end="534" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="61" selection-start="286" selection-end="286" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/quiz2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="95" selection-end="95" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/quiz1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="109" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/Styles/code.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="16" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
@@ -861,20 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="123" selection-end="123" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/JS/puzzle2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="8" selection-start="9892" selection-end="9892" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -884,7 +837,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.18579236">
+        <state line="6" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="123" selection-end="123" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/quiz1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="109" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/quiz2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="95" selection-end="95" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/JS/puzzle2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="58" selection-start="5044" selection-end="5044" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/quiz3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="87" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="135" selection-start="287" selection-end="287" vertical-scroll-proportion="0.19502868">
           <folding />
         </state>
       </provider>
