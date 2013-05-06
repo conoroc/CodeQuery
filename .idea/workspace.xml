@@ -50,8 +50,8 @@
     <file path="/README.rdoc" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367796448794" ignored="false" />
     <file path="$PROJECT_DIR$/../unboggle/app/assets/javascripts/sticky2.js" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367607405442" ignored="false" />
     <file path="/sticky2.js" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367607351151" ignored="false" />
-    <file path="/production.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367801955553" ignored="false" />
-    <file path="/application.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367801676330" ignored="false" />
+    <file path="/production.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367802647077" ignored="false" />
+    <file path="/application.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367802705474" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="62" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
+            <state line="59" column="58" selection-start="2804" selection-end="2804" vertical-scroll-proportion="0.76156586">
               <folding />
             </state>
           </provider>
@@ -116,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="680" selection-end="680" vertical-scroll-proportion="0.5747331">
+            <state line="24" column="53" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,8 +176,8 @@
         <option value="$PROJECT_DIR$/app/views/players/index.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -724,7 +724,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="1" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -896,16 +896,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="62" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
+        <state line="24" column="53" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="680" selection-end="680" vertical-scroll-proportion="0.5747331">
+        <state line="59" column="58" selection-start="2804" selection-end="2804" vertical-scroll-proportion="0.76156586">
           <folding />
         </state>
       </provider>
