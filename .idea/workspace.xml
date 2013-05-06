@@ -16,7 +16,7 @@
     <file path="$PROJECT_DIR$/../unboggle/app/assets/javascripts/gmaps.js" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367610270890" ignored="false" />
     <file path="/gmaps.js" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367609111377" ignored="false" />
     <file path="/players_controller.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367277163100" ignored="false" />
-    <file path="/routes.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367797927742" ignored="false" />
+    <file path="/routes.rb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367798650266" ignored="false" />
     <file path="/entry.js" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1366931296467" ignored="false" />
     <file path="/index.html" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367793019787" ignored="false" />
     <file path="/index.html.erb" changelist="69f565f9-b6fa-434f-8bd1-dce2872ec2a2" time="1367789122359" ignored="false" />
@@ -87,19 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="91" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+            <state line="52" column="3" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.57651246">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="47" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.85231316">
+            <state line="63" column="47" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,8 +183,8 @@
         <option value="$PROJECT_DIR$/public/JS/puzzle2.js" />
         <option value="$PROJECT_DIR$/public/quiz3.html" />
         <option value="$PROJECT_DIR$/app/views/players/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -887,16 +887,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="91" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+        <state line="63" column="47" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="47" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.85231316">
+        <state line="52" column="3" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.57651246">
           <folding />
         </state>
       </provider>
